@@ -1,7 +1,7 @@
 <template>
-    <h2>
-        <el-button type="primary">测试</el-button>
-    </h2>
+    <footer>
+        <p>底部</p>
+    </footer>
 </template>
 
 <script setup>

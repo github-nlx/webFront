@@ -1,3 +1,7 @@
 <template>
-  <NuxtPage />
+  <div>
+    <webHeader />
+    <NuxtPage />
+    <webFooter />
+  </div>
 </template>
