@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     // host: '0.0.0.0' // 允许远程访问
   },
   modules: ['@element-plus/nuxt'],
-  css: ['element-plus/dist/index.css','@/styles/index.css','@/styles/common.css'], // 全局样式
+  css: ['element-plus/dist/index.css','@/styles/index.scss'], // 全局样式
   // elementPlus: {
   //   // 可选：主题配置（如暗黑模式）
   //   themes: ['dark'],
