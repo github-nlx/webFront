@@ -214,5 +214,11 @@ const navList = [
         gap: 0;
     }
 }
+@media screen and (min-width: 75em) {
+    .header .header-nav a:hover {
+        -webkit-box-shadow: inset 0 -5px 0 0 #0183bb;
+        box-shadow: inset 0 -5px 0 0 #0183bb;
+    }
+}
 }
 </style>
