@@ -35,11 +35,13 @@
                                     data-mutate="p70wca-responsive-menu" data-events="mutate"
                                     aria-multiselectable="false" data-dropdown-menu="7rpho9-dropdown-menu">
                                     <li id="menu-item-77"
+                                        @mouseenter="navMouseEnter($event, 0)"
+                                        :class="hoverNavIndex === 0 ? 'is-active' : ''"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-77 is-dropdown-submenu-parent opens-right"
                                         role="none" aria-haspopup="true" aria-label="Our Firm"><a
                                             href="https://levinlaw.com/our-firm/" role="menuitem">Our Firm</a>
-                                        <!-- <ul class="menu custom-submenu first-sub vertical submenu is-dropdown-submenu"
-                                            role="menubar" style="" aria-labelledby="menu-item-77" aria-hidden="true"
+                                        <ul @mouseleave="hoverNavIndex = ''" v-if="hoverNavIndex === 0" style="display: block;" class="menu custom-submenu first-sub vertical submenu is-dropdown-submenu" 
+                                            role="menubar"  aria-labelledby="menu-item-77" aria-hidden="true"
                                             id="1oc1j1-acc-menu" data-submenu="">
                                             <div class="dark-blue-section">
                                                 <div class="grid-container">
@@ -51,14 +53,18 @@
                                                                     role="none"><a
                                                                         href="https://levinlaw.com/our-history/"
                                                                         role="menuitem">Our History</a></li>
-                                                                <li id="menu-item-825"
+                                                                <li @mouseenter="drownSecMouseEnter($event, 0)"
+                                                                    id="menu-item-825"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-825 is-dropdown-submenu-parent opens-right"
                                                                     role="none" aria-haspopup="true"
                                                                     aria-label="Our Results"><a
                                                                         href="https://levinlaw.com/our-results/"
                                                                         role="menuitem">Our Results</a>
-                                                                    <ul class="menu vertical submenu is-dropdown-submenu"
-                                                                        role="menubar" style=""
+                                                                    <ul @mouseleave="hoverSecIndex = ''"
+                                                                        v-if="hoverSecIndex === 0"
+                                                                        style="display: block;"
+                                                                        class="menu vertical submenu is-dropdown-submenu"
+                                                                        role="menubar"
                                                                         aria-labelledby="menu-item-825"
                                                                         aria-hidden="true" id="vsub4l-acc-menu"
                                                                         data-submenu="">
@@ -147,19 +153,22 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </ul> -->
+                                        </ul>
                                     </li>
                                     <li id="menu-item-402"
+                                        @mouseenter="hoverNavIndex = ''"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-402"
                                         role="none"><a href="https://levinlaw.com/attorneys/"
                                             role="menuitem">Attorneys</a></li>
                                     <li id="menu-item-79"
+                                        @mouseenter="navMouseEnter($event, 1)"
+                                        :class="hoverNavIndex === 1 ? 'is-active' : ''"
                                         class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current_page_ancestor menu-item-has-children has-dropdown menu-item-79 is-dropdown-submenu-parent opens-right"
                                         role="none" aria-haspopup="true" aria-label="Practice Areas"><a
                                             href="https://levinlaw.com/practice-areas/" role="menuitem">Practice
                                             Areas</a>
-                                        <!-- <ul class="menu custom-submenu first-sub vertical submenu is-dropdown-submenu"
-                                            role="menubar" style="" aria-labelledby="menu-item-79" aria-hidden="true"
+                                        <ul  @mouseleave="hoverNavIndex = ''" v-if="hoverNavIndex === 1" style="display: block;"  class="menu custom-submenu first-sub vertical submenu is-dropdown-submenu"
+                                            role="menubar" aria-labelledby="menu-item-79" aria-hidden="true" 
                                             id="z6g31t-acc-menu" data-submenu="">
                                             <div class="dark-blue-section">
                                                 <div class="grid-container">
@@ -637,14 +646,16 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </ul> -->
+                                        </ul>
                                     </li>
                                     <li id="menu-item-80"
+                                        @mouseenter="navMouseEnter($event, 2)"
+                                        :class="hoverNavIndex === 2 ? 'is-active' : ''"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-80 is-dropdown-submenu-parent opens-right"
                                         role="none" aria-haspopup="true" aria-label="Government"><a
                                             href="https://levinlaw.com/government/" role="menuitem">Government</a>
-                                        <!-- <ul class="menu custom-submenu first-sub vertical submenu is-dropdown-submenu"
-                                            role="menubar" style="" aria-labelledby="menu-item-80" aria-hidden="true"
+                                        <ul @mouseleave="hoverNavIndex = ''" v-if="hoverNavIndex === 2" style="display: block;" class="menu custom-submenu first-sub vertical submenu is-dropdown-submenu"
+                                            role="menubar"  aria-labelledby="menu-item-80" aria-hidden="true"
                                             id="uc4m8e-acc-menu" data-submenu="">
                                             <div class="dark-blue-section">
                                                 <div class="grid-container">
@@ -757,14 +768,16 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </ul> -->
+                                        </ul>
                                     </li>
                                     <li id="menu-item-7136"
+                                        @mouseenter="navMouseEnter($event, 3)"
+                                        :class="hoverNavIndex === 3 ? 'is-active' : ''"
                                         class="menu-item menu-item-type-post_type_archive menu-item-object-newsroom menu-item-has-children has-dropdown menu-item-7136 is-dropdown-submenu-parent opens-right"
                                         role="none" aria-haspopup="true" aria-label="News"><a
                                             href="https://levinlaw.com/newsroom/" role="menuitem">News</a>
-                                        <!-- <ul class="menu custom-submenu first-sub vertical submenu is-dropdown-submenu"
-                                            role="menubar" style="" aria-labelledby="menu-item-7136" aria-hidden="true"
+                                        <ul  @mouseleave="hoverNavIndex = ''" v-if="hoverNavIndex === 3" style="display: block;" class="menu custom-submenu first-sub vertical submenu is-dropdown-submenu"
+                                            role="menubar"  aria-labelledby="menu-item-7136" aria-hidden="true"
                                             id="w3zvgw-acc-menu" data-submenu="">
                                             <div class="dark-blue-section">
                                                 <div class="grid-container">
@@ -825,17 +838,20 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </ul> -->
+                                        </ul>
                                     </li>
                                     <li id="menu-item-82"
+                                        @mouseenter="hoverNavIndex = ''"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"
                                         role="none"><a href="https://levinlaw.com/co-counsel/"
                                             role="menuitem">Co-Counsel</a></li>
                                     <li id="menu-item-5947"
+                                        @mouseenter="hoverNavIndex = ''"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5947"
                                         role="none"><a href="https://levinlaw.com/contact/" role="menuitem">(800)
                                             277-1193</a></li>
                                     <li id="menu-item-83"
+                                        @mouseenter="hoverNavIndex = ''"
                                         class="search-item menu-item menu-item-type-custom menu-item-object-custom menu-item-83"
                                         role="none"><a href="#" role="menuitem">Search</a></li>
                                 </ul>
@@ -892,7 +908,17 @@ import { ref, onMounted } from 'vue'
 
 const showMobileV = ref(false)
 const showDrop = ref(false)
+const hoverNavIndex = ref('')
+const hoverSecIndex = ref('')
 
+const navMouseEnter = (e, index) => {
+    console.log(e, index);
+  hoverNavIndex.value = index
+}
+const drownSecMouseEnter = (e, index) => {
+    console.log(e, index);
+  hoverSecIndex.value = index
+}
 onMounted(() => {
     showMobileV.value = window.innerWidth < 1200
   window.addEventListener('resize', () => {
