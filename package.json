@@ -12,6 +12,9 @@
   "dependencies": {
     "@element-plus/nuxt": "^1.1.4",
     "@nuxt/ui": "3.3.0",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/proxy": "^2.1.0",
+    "axios": "^1.11.0",
     "element-plus": "^2.10.4",
     "nuxt": "^4.0.1",
     "typescript": "^5.6.3",

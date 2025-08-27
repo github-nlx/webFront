@@ -48,7 +48,9 @@
                                                     <div class="grid-x">
                                                         <div class="menu-wrap">
                                                             <ul class="menu">
-                                                                <li id="menu-item-821"
+                                                                <li 
+                                                                    @mouseenter="hoverSecIndex = ''"
+                                                                    id="menu-item-821"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-821"
                                                                     role="none"><a
                                                                         href="https://levinlaw.com/our-history/"
@@ -87,26 +89,36 @@
                                                                         </li>
                                                                     </ul>
                                                                 </li>
-                                                                <li id="menu-item-76"
+                                                                <li 
+                                                                    @mouseenter="hoverSecIndex = ''"
+                                                                    id="menu-item-76"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"
                                                                     role="none"><a href="https://levinlaw.com/careers/"
                                                                         role="menuitem">Careers</a></li>
-                                                                <li id="menu-item-822"
+                                                                <li 
+                                                                    @mouseenter="hoverSecIndex = ''"
+                                                                    id="menu-item-822"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-822"
                                                                     role="none"><a
                                                                         href="https://levinlaw.com/client-testimonials/"
                                                                         role="menuitem">Client Testimonials</a></li>
-                                                                <li id="menu-item-824"
+                                                                <li 
+                                                                    @mouseenter="hoverSecIndex = ''"
+                                                                    id="menu-item-824"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-824"
                                                                     role="none"><a
                                                                         href="https://levinlaw.com/community-service/"
                                                                         role="menuitem">Community Service</a></li>
-                                                                <li id="menu-item-4144"
+                                                                <li 
+                                                                    @mouseenter="hoverSecIndex = ''"
+                                                                    id="menu-item-4144"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4144"
                                                                     role="none"><a
                                                                         href="https://levinlaw.com/mass-torts-made-perfect/"
                                                                         role="menuitem">Mass Torts Made Perfect</a></li>
-                                                                <li id="menu-item-11755"
+                                                                <li 
+                                                                    @mouseenter="hoverSecIndex = ''"
+                                                                    id="menu-item-11755"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11755"
                                                                     role="none"><a
                                                                         href="https://levinlaw.com/2025-peoples-law-school/"
@@ -175,24 +187,34 @@
                                                     <div class="grid-x">
                                                         <div class="menu-wrap">
                                                             <ul class="menu">
-                                                                <li id="menu-item-4561"
+                                                                <li 
+                                                                     @mouseenter="hoverSecIndex = ''"
+                                                                    id="menu-item-4561"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4561"
                                                                     role="none"><a
                                                                         href="https://levinlaw.com/class-action-lawsuits/"
                                                                         role="menuitem">Class Actions</a></li>
-                                                                <li id="menu-item-7505"
+                                                                <li 
+                                                                     @mouseenter="hoverSecIndex = ''"
+                                                                    id="menu-item-7505"
                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7505"
                                                                     role="none"><a
                                                                         href="https://levinlaw.com/truck-accident/"
                                                                         role="menuitem">Commercial Trucking</a></li>
-                                                                <li id="menu-item-70"
+                                                                <li 
+                                                                    @mouseenter="drownSecMouseEnter($event, 1)"
+                                                                    id="menu-item-70"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-70 is-dropdown-submenu-parent opens-right"
                                                                     role="none" aria-haspopup="true"
                                                                     aria-label="Drug Injuries"><a
                                                                         href="https://levinlaw.com/drug-injuries/"
                                                                         role="menuitem">Drug Injuries</a>
-                                                                    <ul class="menu vertical submenu is-dropdown-submenu"
-                                                                        role="menubar" style=""
+                                                                    <ul 
+                                                                        v-if="hoverSecIndex === 1"
+                                                                        @mouseleave="hoverSecIndex = ''"
+                                                                        style="display: block;"
+                                                                        class="menu vertical submenu is-dropdown-submenu"
+                                                                        role="menubar"
                                                                         aria-labelledby="menu-item-70"
                                                                         aria-hidden="true" id="w6nfll-acc-menu"
                                                                         data-submenu="">
@@ -242,14 +264,20 @@
                                                                                 role="menuitem">Valsartan</a></li>
                                                                     </ul>
                                                                 </li>
-                                                                <li id="menu-item-837"
+                                                                <li 
+                                                                    @mouseenter="drownSecMouseEnter($event, 2)"
+                                                                    id="menu-item-837"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-837 is-dropdown-submenu-parent opens-right"
                                                                     role="none" aria-haspopup="true"
                                                                     aria-label="Environmental Claims"><a
                                                                         href="https://levinlaw.com/environmental-claims/"
                                                                         role="menuitem">Environmental Claims</a>
-                                                                    <ul class="menu vertical submenu is-dropdown-submenu"
-                                                                        role="menubar" style=""
+                                                                    <ul 
+                                                                        v-if="hoverSecIndex === 2"
+                                                                        @mouseleave="hoverSecIndex = ''"
+                                                                        style="display: block;"
+                                                                        class="menu vertical submenu is-dropdown-submenu"
+                                                                        role="menubar"
                                                                         aria-labelledby="menu-item-837"
                                                                         aria-hidden="true" id="yvwph5-acc-menu"
                                                                         data-submenu="">
@@ -271,14 +299,21 @@
                                                                         </li>
                                                                     </ul>
                                                                 </li>
-                                                                <li id="menu-item-845"
+                                                                <li 
+                                                                    @mouseenter="drownSecMouseEnter($event, 3)"
+                                                                    id="menu-item-845"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-845 is-dropdown-submenu-parent opens-right"
                                                                     role="none" aria-haspopup="true"
                                                                     aria-label="Exploitation – Abuse"><a
                                                                         href="https://levinlaw.com/exploitation-abuse/"
                                                                         role="menuitem">Exploitation – Abuse</a>
-                                                                    <ul class="menu vertical submenu is-dropdown-submenu"
-                                                                        role="menubar" style=""
+                                                                    <ul 
+                                                                    
+                                                                        v-if="hoverSecIndex === 3"
+                                                                        @mouseleave="hoverSecIndex = ''"
+                                                                        style="display: block;"
+                                                                        class="menu vertical submenu is-dropdown-submenu"
+                                                                        role="menubar"
                                                                         aria-labelledby="menu-item-845"
                                                                         aria-hidden="true" id="p6ca34-acc-menu"
                                                                         data-submenu="">
@@ -307,15 +342,21 @@
                                                                                 Addiction</a></li>
                                                                     </ul>
                                                                 </li>
-                                                                <li id="menu-item-4558"
+                                                                <li 
+                                                                    @mouseenter="drownSecMouseEnter($event, 4)"
+                                                                    id="menu-item-4558"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-4558 is-dropdown-submenu-parent opens-right"
                                                                     role="none" aria-haspopup="true"
                                                                     aria-label="Government Entities Litigation"><a
                                                                         href="https://levinlaw.com/government/"
                                                                         role="menuitem">Government Entities
                                                                         Litigation</a>
-                                                                    <ul class="menu vertical submenu is-dropdown-submenu"
-                                                                        role="menubar" style=""
+                                                                    <ul 
+                                                                        v-if="hoverSecIndex === 4"
+                                                                        @mouseleave="hoverSecIndex = ''"
+                                                                        style="display: block;"
+                                                                        class="menu vertical submenu is-dropdown-submenu"
+                                                                        role="menubar" 
                                                                         aria-labelledby="menu-item-4558"
                                                                         aria-hidden="true" id="m3to8f-acc-menu"
                                                                         data-submenu="">
@@ -349,14 +390,20 @@
                                                                                 Foods</a></li>
                                                                     </ul>
                                                                 </li>
-                                                                <li id="menu-item-839"
+                                                                <li 
+                                                                    @mouseenter="drownSecMouseEnter($event, 5)"
+                                                                    id="menu-item-839"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-839 is-dropdown-submenu-parent opens-right"
                                                                     role="none" aria-haspopup="true"
                                                                     aria-label="Medical Devices"><a
                                                                         href="https://levinlaw.com/medical-devices/"
                                                                         role="menuitem">Medical Devices</a>
-                                                                    <ul class="menu vertical submenu is-dropdown-submenu"
-                                                                        role="menubar" style=""
+                                                                    <ul 
+                                                                        v-if="hoverSecIndex === 5"
+                                                                        @mouseleave="hoverSecIndex = ''"
+                                                                        style="display: block;"
+                                                                        class="menu vertical submenu is-dropdown-submenu"
+                                                                        role="menubar"
                                                                         aria-labelledby="menu-item-839"
                                                                         aria-hidden="true" id="bo7qrc-acc-menu"
                                                                         data-submenu="">
@@ -393,14 +440,20 @@
                                                                                 role="menuitem">Philips CPAP</a></li>
                                                                     </ul>
                                                                 </li>
-                                                                <li id="menu-item-4530"
+                                                                <li 
+                                                                    @mouseenter="drownSecMouseEnter($event, 6)"
+                                                                    id="menu-item-4530"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-4530 is-dropdown-submenu-parent opens-right"
                                                                     role="none" aria-haspopup="true"
                                                                     aria-label="Personal Injury"><a
                                                                         href="https://levinlaw.com/pensacola-personal-injury-attorneys/"
                                                                         role="menuitem">Personal Injury</a>
-                                                                    <ul class="menu vertical submenu is-dropdown-submenu"
-                                                                        role="menubar" style=""
+                                                                    <ul 
+                                                                        v-if="hoverSecIndex === 6"
+                                                                        @mouseleave="hoverSecIndex = ''"
+                                                                        style="display: block;"
+                                                                        class="menu vertical submenu is-dropdown-submenu"
+                                                                        role="menubar"
                                                                         aria-labelledby="menu-item-4530"
                                                                         aria-hidden="true" id="cnpklr-acc-menu"
                                                                         data-submenu="">
@@ -458,13 +511,19 @@
                                                                                 Accidents</a></li>
                                                                     </ul>
                                                                 </li>
-                                                                <li id="menu-item-7050"
+                                                                <li 
+                                                                    @mouseenter="drownSecMouseEnter($event, 7)"
+                                                                    id="menu-item-7050"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-7050 is-dropdown-submenu-parent opens-right"
                                                                     role="none" aria-haspopup="true" aria-label="PFAS">
                                                                     <a href="https://levinlaw.com/pfas-injury-lawsuit/"
                                                                         role="menuitem">PFAS</a>
-                                                                    <ul class="menu vertical submenu is-dropdown-submenu"
-                                                                        role="menubar" style=""
+                                                                    <ul 
+                                                                        v-if="hoverSecIndex === 7"
+                                                                        @mouseleave="hoverSecIndex = ''"
+                                                                        style="display: block;"
+                                                                        class="menu vertical submenu is-dropdown-submenu"
+                                                                        role="menubar" 
                                                                         aria-labelledby="menu-item-7050"
                                                                         aria-hidden="true" id="5ois7d-acc-menu"
                                                                         data-submenu="">
@@ -489,14 +548,20 @@
                                                                         </li>
                                                                     </ul>
                                                                 </li>
-                                                                <li id="menu-item-840"
+                                                                <li 
+                                                                    @mouseenter="drownSecMouseEnter($event, 8)"
+                                                                    id="menu-item-840"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-840 is-dropdown-submenu-parent opens-right"
                                                                     role="none" aria-haspopup="true"
                                                                     aria-label="Products Liability"><a
                                                                         href="https://levinlaw.com/products-liability/"
                                                                         role="menuitem">Products Liability</a>
-                                                                    <ul class="menu vertical submenu is-dropdown-submenu"
-                                                                        role="menubar" style=""
+                                                                    <ul 
+                                                                        v-if="hoverSecIndex === 8"
+                                                                        @mouseleave="hoverSecIndex = ''"
+                                                                        style="display: block;"
+                                                                        class="menu vertical submenu is-dropdown-submenu"
+                                                                        role="menubar"
                                                                         aria-labelledby="menu-item-840"
                                                                         aria-hidden="true" id="6uxmss-acc-menu"
                                                                         data-submenu="">
@@ -534,14 +599,20 @@
                                                                                 Foods</a></li>
                                                                     </ul>
                                                                 </li>
-                                                                <li id="menu-item-841"
+                                                                <li 
+                                                                    @mouseenter="drownSecMouseEnter($event, 9)"
+                                                                    id="menu-item-841"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children has-dropdown menu-item-841 is-dropdown-submenu-parent opens-right"
                                                                     role="none" aria-haspopup="true"
                                                                     aria-label="Securities"><a
                                                                         href="https://levinlaw.com/securities-investment-fraud-lawyer/"
                                                                         role="menuitem">Securities</a>
-                                                                    <ul class="menu vertical submenu is-dropdown-submenu"
-                                                                        role="menubar" style=""
+                                                                    <ul 
+                                                                        v-if="hoverSecIndex === 9"
+                                                                        @mouseleave="hoverSecIndex = ''"
+                                                                        style="display: block;"
+                                                                        class="menu vertical submenu is-dropdown-submenu"
+                                                                        role="menubar" 
                                                                         aria-labelledby="menu-item-841"
                                                                         aria-hidden="true" id="845tjb-acc-menu"
                                                                         data-submenu="">
@@ -553,14 +624,20 @@
                                                                                 Holdings</a></li>
                                                                     </ul>
                                                                 </li>
-                                                                <li id="menu-item-4544"
+                                                                <li 
+                                                                    @mouseenter="drownSecMouseEnter($event, 10)"
+                                                                    id="menu-item-4544"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-4544 is-dropdown-submenu-parent opens-right"
                                                                     role="none" aria-haspopup="true"
                                                                     aria-label="Veterans"><a
                                                                         href="https://levinlaw.com/veterans/"
                                                                         role="menuitem">Veterans</a>
-                                                                    <ul class="menu vertical submenu is-dropdown-submenu"
-                                                                        role="menubar" style=""
+                                                                    <ul 
+                                                                        v-if="hoverSecIndex === 10"
+                                                                        @mouseleave="hoverSecIndex = ''"
+                                                                        style="display: block;"
+                                                                        class="menu vertical submenu is-dropdown-submenu"
+                                                                        role="menubar"
                                                                         aria-labelledby="menu-item-4544"
                                                                         aria-hidden="true" id="3krr4s-acc-menu"
                                                                         data-submenu="">
@@ -577,15 +654,21 @@
                                                                                 Claims</a></li>
                                                                     </ul>
                                                                 </li>
-                                                                <li id="menu-item-5053"
+                                                                <li 
+                                                                    @mouseenter="drownSecMouseEnter($event, 11)"
+                                                                    id="menu-item-5053"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-5053 is-dropdown-submenu-parent opens-right"
                                                                     role="none" aria-haspopup="true"
                                                                     aria-label="Workers Comp &amp; SS Disability"><a
                                                                         href="https://levinlaw.com/workers-comp/"
                                                                         role="menuitem">Workers Comp &amp; SS
                                                                         Disability</a>
-                                                                    <ul class="menu vertical submenu is-dropdown-submenu"
-                                                                        role="menubar" style=""
+                                                                    <ul 
+                                                                        v-if="hoverSecIndex === 11"
+                                                                        @mouseleave="hoverSecIndex = ''"
+                                                                        style="display: block;"
+                                                                        class="menu vertical submenu is-dropdown-submenu"
+                                                                        role="menubar"
                                                                         aria-labelledby="menu-item-5053"
                                                                         aria-hidden="true" id="qcqt17-acc-menu"
                                                                         data-submenu="">
@@ -662,24 +745,34 @@
                                                     <div class="grid-x">
                                                         <div class="menu-wrap">
                                                             <ul class="menu">
-                                                                <li id="menu-item-928"
+                                                                <li 
+                                                                    @mouseenter="hoverSecIndex = ''"
+                                                                    id="menu-item-928"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-928"
                                                                     role="none"><a
                                                                         href="https://levinlaw.com/antitrust/"
                                                                         role="menuitem">Antitrust</a></li>
-                                                                <li id="menu-item-4588"
+                                                                <li 
+                                                                    @mouseenter="hoverSecIndex = ''"
+                                                                    id="menu-item-4588"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4588"
                                                                     role="none"><a
                                                                         href="https://levinlaw.com/practice-areas/consumer-protection/"
                                                                         role="menuitem">Consumer Protection</a></li>
-                                                                <li id="menu-item-930"
+                                                                <li 
+                                                                    @mouseenter="drownSecMouseEnter($event, 0)"
+                                                                    id="menu-item-930"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-930 is-dropdown-submenu-parent opens-right"
                                                                     role="none" aria-haspopup="true"
                                                                     aria-label="Environment"><a
                                                                         href="https://levinlaw.com/environment/"
                                                                         role="menuitem">Environment</a>
-                                                                    <ul class="menu vertical submenu is-dropdown-submenu"
-                                                                        role="menubar" style=""
+                                                                    <ul 
+                                                                        v-if="hoverSecIndex === 0"
+                                                                        @mouseleave="hoverSecIndex = ''"
+                                                                        style="display: block;"
+                                                                        class="menu vertical submenu is-dropdown-submenu"
+                                                                        role="menubar"
                                                                         aria-labelledby="menu-item-930"
                                                                         aria-hidden="true" id="0qkmox-acc-menu"
                                                                         data-submenu="">
@@ -691,19 +784,27 @@
                                                                         </li>
                                                                     </ul>
                                                                 </li>
-                                                                <li id="menu-item-931"
+                                                                <li 
+                                                                    @mouseenter="hoverSecIndex = ''"
+                                                                    id="menu-item-931"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-931"
                                                                     role="none"><a
                                                                         href="https://levinlaw.com/false-claims-act/"
                                                                         role="menuitem">False Claims Act</a></li>
-                                                                <li id="menu-item-932"
+                                                                <li 
+                                                                    @mouseenter="drownSecMouseEnter($event, 1)"
+                                                                    id="menu-item-932"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-932 is-dropdown-submenu-parent opens-right"
                                                                     role="none" aria-haspopup="true"
                                                                     aria-label="Pharmaceutical"><a
                                                                         href="https://levinlaw.com/drug-injuries/"
                                                                         role="menuitem">Pharmaceutical</a>
-                                                                    <ul class="menu vertical submenu is-dropdown-submenu"
-                                                                        role="menubar" style=""
+                                                                    <ul 
+                                                                        v-if="hoverSecIndex === 1"
+                                                                        @mouseleave="hoverSecIndex = ''"
+                                                                        style="display: block;"
+                                                                        class="menu vertical submenu is-dropdown-submenu"
+                                                                        role="menubar" 
                                                                         aria-labelledby="menu-item-932"
                                                                         aria-hidden="true" id="1g8m59-acc-menu"
                                                                         data-submenu="">
@@ -720,12 +821,16 @@
                                                                                 role="menuitem">Opioid</a></li>
                                                                     </ul>
                                                                 </li>
-                                                                <li id="menu-item-933"
+                                                                <li 
+                                                                    @mouseenter="hoverSecIndex = ''"
+                                                                    id="menu-item-933"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-933"
                                                                     role="none"><a
                                                                         href="https://levinlaw.com/securities-investment-fraud-lawyer/"
                                                                         role="menuitem">Securities</a></li>
-                                                                <li id="menu-item-10623"
+                                                                <li 
+                                                                    @mouseenter="hoverSecIndex = ''"
+                                                                    id="menu-item-10623"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10623"
                                                                     role="none"><a
                                                                         href="https://levinlaw.com/ultra-processed-foods-lawsuits/"
@@ -912,11 +1017,12 @@ const hoverNavIndex = ref('')
 const hoverSecIndex = ref('')
 
 const navMouseEnter = (e, index) => {
-    console.log(e, index);
+    // console.log(e, index);
+  hoverSecIndex.value = ''
   hoverNavIndex.value = index
 }
 const drownSecMouseEnter = (e, index) => {
-    console.log(e, index);
+    // console.log(e, index);
   hoverSecIndex.value = index
 }
 onMounted(() => {
