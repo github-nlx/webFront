@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   // target: 'server',
-  // ssr: false,
+  ssr: true,
   devServer: {
     port: 9527, // 自定义端口号
     // host: '0.0.0.0' // 允许远程访问
