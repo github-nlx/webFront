@@ -128,22 +128,7 @@
                                                         <div class="featured-posts-wrap">
                                                             <div class="content-wrap">
                                                                 <div class="post-item">
-                                                                    <div class="image-wrap"><img width="1920"
-                                                                            height="1011"
-                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201011'%3E%3C/svg%3E"
-                                                                            class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                                                                            alt="" decoding="async" fetchpriority="high"
-                                                                            data-lazy-srcset="https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG.jpg 1920w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-300x158.jpg 300w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-1024x539.jpg 1024w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-768x404.jpg 768w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-1536x809.jpg 1536w"
-                                                                            data-lazy-sizes="(max-width: 1920px) 100vw, 1920px"
-                                                                            data-lazy-src="https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG.jpg"><noscript><img
-                                                                                width="1920" height="1011"
-                                                                                src="https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG.jpg"
-                                                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                                                                                alt="" decoding="async"
-                                                                                fetchpriority="high"
-                                                                                srcset="https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG.jpg 1920w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-300x158.jpg 300w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-1024x539.jpg 1024w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-768x404.jpg 768w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-1536x809.jpg 1536w"
-                                                                                sizes="(max-width: 1920px) 100vw, 1920px" /></noscript>
-                                                                    </div>
+       <div class="image-wrap"><img width="1920" height="1011" src="https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image entered lazyloaded" alt="" decoding="async" fetchpriority="high" data-lazy-srcset="https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG.jpg 1920w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-300x158.jpg 300w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-1024x539.jpg 1024w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-768x404.jpg 768w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-1536x809.jpg 1536w" data-lazy-sizes="(max-width: 1920px) 100vw, 1920px" data-lazy-src="https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG.jpg" data-ll-status="loaded" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG.jpg 1920w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-300x158.jpg 300w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-1024x539.jpg 1024w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-768x404.jpg 768w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-1536x809.jpg 1536w"><noscript><img width="1920" height="1011" src="https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG.jpg 1920w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-300x158.jpg 300w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-1024x539.jpg 1024w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-768x404.jpg 768w, https://levinlaw.com/wp-content/uploads/2024/07/LP-Building-Homepage-BG-1536x809.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></noscript></div>
                                                                     <div class="text-wrap">
                                                                         <h6 class="post-title">Levin Papantonio Named
                                                                             One of the Best Law Firms to Work For!</h6>
@@ -602,7 +587,7 @@
                                                                 <li 
                                                                     @mouseenter="drownSecMouseEnter($event, 9)"
                                                                     id="menu-item-841"
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children has-dropdown menu-item-841 is-dropdown-submenu-parent opens-right"
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-840 is-dropdown-submenu-parent opens-right"
                                                                     role="none" aria-haspopup="true"
                                                                     aria-label="Securities"><a
                                                                         href="https://levinlaw.com/securities-investment-fraud-lawyer/"
@@ -688,36 +673,7 @@
                                                                 </li>
                                                             </ul>
                                                         </div>
-                                                        <div class="featured-posts-wrap">
-                                                            <div class="content-wrap">
-                                                                <div class="post-item">
-                                                                    <div class="image-wrap"><img width="1024"
-                                                                            height="1024"
-                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%201024'%3E%3C/svg%3E"
-                                                                            class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                                                                            alt="Johnson &amp; Johson" decoding="async"
-                                                                            data-lazy-srcset="https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1.jpg 1024w, https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1-300x300.jpg 300w, https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1-150x150.jpg 150w, https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1-768x768.jpg 768w"
-                                                                            data-lazy-sizes="(max-width: 1024px) 100vw, 1024px"
-                                                                            data-lazy-src="https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1.jpg"><noscript><img
-                                                                                width="1024" height="1024"
-                                                                                src="https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1.jpg"
-                                                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                                                                                alt="Johnson &amp; Johson"
-                                                                                decoding="async"
-                                                                                srcset="https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1.jpg 1024w, https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1-300x300.jpg 300w, https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1-150x150.jpg 150w, https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1-768x768.jpg 768w"
-                                                                                sizes="(max-width: 1024px) 100vw, 1024px" /></noscript>
-                                                                    </div>
-                                                                    <div class="text-wrap">
-                                                                        <h6 class="post-title">Plaintiffs in J&amp;J
-                                                                            Talc Cancer Litigation File Class Action
-                                                                            Complaint for Fraudulent Conveyance</h6><a
-                                                                            class="button"
-                                                                            href="https://levinlaw.com/newsroom/talc-cancer-plaintiffs-file-class-action-complaint-against-johnson-and-johnson-for-fraudulent-conveyance/"
-                                                                            role="menuitem">Read More</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+        <div class="featured-posts-wrap"><div class="content-wrap"><div class="post-item"><div class="image-wrap"><img width="1024" height="1024" src="https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image entered lazyloaded" alt="Johnson &amp; Johson" decoding="async" data-lazy-srcset="https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1.jpg 1024w, https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1-300x300.jpg 300w, https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1-150x150.jpg 150w, https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1-768x768.jpg 768w" data-lazy-sizes="(max-width: 1024px) 100vw, 1024px" data-lazy-src="https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1.jpg" data-ll-status="loaded" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1.jpg 1024w, https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1-300x300.jpg 300w, https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1-150x150.jpg 150w, https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1-768x768.jpg 768w"><noscript><img width="1024" height="1024" src="https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Johnson &amp; Johson" decoding="async" srcset="https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1.jpg 1024w, https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1-300x300.jpg 300w, https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1-150x150.jpg 150w, https://levinlaw.com/wp-content/uploads/2024/05/iStock-1373261365-1-768x768.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></noscript></div><div class="text-wrap"><h6 class="post-title">Plaintiffs in J&amp;J Talc Cancer Litigation File Class Action Complaint for Fraudulent Conveyance</h6><a class="button" href="https://levinlaw.com/newsroom/talc-cancer-plaintiffs-file-class-action-complaint-against-johnson-and-johnson-for-fraudulent-conveyance/" role="menuitem">Read More</a></div></div></div></div>
                                                         <div class="blue-bar">
                                                             <div class="text-wrap">
                                                                 <p>We have helped to secure more than $80 billion in
@@ -837,31 +793,7 @@
                                                                         role="menuitem">Ultra-Processed Foods</a></li>
                                                             </ul>
                                                         </div>
-                                                        <div class="featured-posts-wrap">
-                                                            <div class="content-wrap">
-                                                                <div class="post-item">
-                                                                    <div class="image-wrap"><img width="250"
-                                                                            height="277"
-                                                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%20277'%3E%3C/svg%3E"
-                                                                            class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                                                                            alt="" decoding="async"
-                                                                            data-lazy-src="https://levinlaw.com/wp-content/uploads/2024/02/Peter-Mougey-2023.webp"><noscript><img
-                                                                                width="250" height="277"
-                                                                                src="https://levinlaw.com/wp-content/uploads/2024/02/Peter-Mougey-2023.webp"
-                                                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                                                                                alt="" decoding="async" /></noscript>
-                                                                    </div>
-                                                                    <div class="text-wrap">
-                                                                        <h6 class="post-title">National and State Opioid
-                                                                            Settlements: Trailblazer Law Firm in the
-                                                                            National Prescription Opiate Litigation
-                                                                            Tells Its Story</h6><a class="button"
-                                                                            href="https://levinlaw.com/national-and-state-opioid-settlements-trailblazer-law-firm-in-the-national-prescription-opiate-litigation-tells-its-story/"
-                                                                            role="menuitem">Read More</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+<div class="featured-posts-wrap"><div class="content-wrap"><div class="post-item"><div class="image-wrap"><img width="250" height="277" src="https://levinlaw.com/wp-content/uploads/2024/02/Peter-Mougey-2023.webp" class="attachment-post-thumbnail size-post-thumbnail wp-post-image entered lazyloaded" alt="" decoding="async" data-lazy-src="https://levinlaw.com/wp-content/uploads/2024/02/Peter-Mougey-2023.webp" data-ll-status="loaded"><noscript><img width="250" height="277" src="https://levinlaw.com/wp-content/uploads/2024/02/Peter-Mougey-2023.webp" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" /></noscript></div><div class="text-wrap"><h6 class="post-title">National and State Opioid Settlements: Trailblazer Law Firm in the National Prescription Opiate Litigation Tells Its Story</h6><a class="button" href="https://levinlaw.com/national-and-state-opioid-settlements-trailblazer-law-firm-in-the-national-prescription-opiate-litigation-tells-its-story/" role="menuitem">Read More</a></div></div></div></div>
                                                         <div class="blue-bar">
                                                             <div class="text-wrap">
                                                                 <p>We have helped to secure more than $80 billion in
