@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- 首页 -->
+  <url>
+    <loc>https://levinlaw.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- 律师个人资料页面 - 动态URL示例 -->
+  <url>
+    <loc>https://levinlaw.com/lawyers/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 示例律师页面 - 实际应用中应替换为真实的律师URL -->
+  <url>
+    <loc>https://levinlaw.com/lawyers/john-smith</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://levinlaw.com/lawyers/mary-johnson</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://levinlaw.com/lawyers/robert-davis</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- 法律业务领域页面 -->
+  <url>
+    <loc>https://levinlaw.com/practice-areas/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 关于我们页面 -->
+  <url>
+    <loc>https://levinlaw.com/our-firm/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 联系我们页面 -->
+  <url>
+    <loc>https://levinlaw.com/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>

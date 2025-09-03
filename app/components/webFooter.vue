@@ -351,51 +351,6 @@
       </p>
     </div>
     <div>
-      <div
-        class="grecaptcha-badge"
-        data-style="bottomright"
-        style="
-          width: 256px;
-          height: 60px;
-          display: block;
-          transition: right 0.3s;
-          position: fixed;
-          bottom: 14px;
-          right: -186px;
-          box-shadow: gray 0px 0px 5px;
-          border-radius: 2px;
-          overflow: hidden;
-        "
-      >
-        <div class="grecaptcha-logo">
-          <iframe
-            title="reCAPTCHA"
-            width="256"
-            height="60"
-            role="presentation"
-            name="a-34k4xec70rjs"
-            frameborder="0"
-            scrolling="no"
-            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
-            src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdFRh4qAAAAAJA01D4gbke6EdVOGbXCWo-1zuWS&amp;co=aHR0cHM6Ly9sZXZpbmxhdy5jb206NDQz&amp;hl=zh-CN&amp;v=DBIsSQ0s2djD_akThoRUDeHa&amp;size=invisible&amp;anchor-ms=20000&amp;execute-ms=15000&amp;cb=k00lqn73wv4"
-          ></iframe>
-        </div>
-        <div class="grecaptcha-error"></div>
-        <textarea
-          id="g-recaptcha-response-100000"
-          name="g-recaptcha-response"
-          class="g-recaptcha-response"
-          style="
-            width: 250px;
-            height: 40px;
-            border: 1px solid rgb(193, 193, 193);
-            margin: 10px 25px;
-            padding: 0px;
-            resize: none;
-            display: none;
-          "
-        ></textarea>
-      </div>
       <iframe style="display: none"></iframe>
     </div>
   </footer>
